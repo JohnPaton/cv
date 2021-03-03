@@ -30,7 +30,7 @@ $endif$
 
 %\setuppagenumbering[location={footer,center}]
 
-\setupbodyfont[11pt, helvetica]
+\setupbodyfont[10pt, helvetica]
 
 \setupwhitespace[medium]
 
@@ -102,6 +102,7 @@ $if(toc)$
 \placecontent
 $endif$
 
+\setupalign[lesshyphenation,hz]
 $body$
 
 $for(include-after)$
